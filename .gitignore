@@ -1,3 +1,8 @@
-/design
+challenge_design
 /node_modules
 *.log
+
+.DS_Store
+dist
+dist-ssr
+*.local
