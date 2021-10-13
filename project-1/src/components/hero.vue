@@ -2,7 +2,7 @@
   <div class="hero">
       <div class="hero-heading">{{heading}}</div>
       <div class="hero-details">{{details}}</div>
-      <div class="hero-outline"> <button class="btn btn-primary text-base  py-2 px-12 text-white">{{buttonTitle}}</button></div>
+      <div class="hero-outline"> <button class="btn btn-primary text-base my-3 text-lg font-semibold  py-2 px-12 text-white">{{buttonTitle}}</button></div>
   </div>
 </template>
 
@@ -20,14 +20,14 @@ export default {
 
 <style scoped>
 .hero{
-    @apply flex flex-col text-center min-h-0 items-center py-5 justify-center;
+    @apply flex flex-col text-center min-h-0 items-center py-36 justify-center;
 
 }
 .hero-heading{
-    @apply text-3xl text-center font-bold text-gray-900 py-4;
+    @apply text-4xl text-center font-bold text-gray-900 py-4;
 }
 .hero-details{
-    @apply text-base text-center  text-gray-700 px-5 max-w-sm;
+    @apply text-lg text-center  text-gray-700 px-5 max-w-md;
 }
 .hero-outline{
     @apply flex justify-center items-center py-5;
