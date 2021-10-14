@@ -45,7 +45,7 @@
 <script setup>
 </script>
 
-<style>
+<style scoped>
 .home-section{
     @apply flex flex-col-reverse sm:flex-row  container;
 
@@ -62,5 +62,8 @@
 .illustration-background{
     @apply py-20;
     background: url(../assets/bg-section-top-desktop-1.svg) right -100%/100% no-repeat padding-box, url(../assets/bg-section-bottom-desktop-1.svg) right -100%/100%   no-repeat padding-box, hsl(207, 100%, 98%) padding-box ;
+}
+*{
+ color: #00252E;
 }
 </style>

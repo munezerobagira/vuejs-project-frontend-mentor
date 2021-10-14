@@ -18,7 +18,7 @@
                 </form>
           </div>
           <div class="flex-1">
-            <img src="../assets/logo.svg" class="w-36"/>
+            <img src="../assets/logo-white.svg" class="fill-red w-48"/>
             <p class="max-w-sm my-4">To receive tips on how to grow your community, signup to our weekly newsletter. We'll never send you spam or pass your email address.</p>
             <div>
                 <div class="flex items-center justify-start">
@@ -30,9 +30,15 @@
                     <p>Email: example@huddle.com</p>
                 </div>
                 <div class="flex flex-row">
-                    <div class="w-10 py-2 pr-2"><img src="../assets/facebook-square-brands.svg" alt="Facebook icon" class="fill-current w-full text-white"></div>
-                    <div class="w-12 p-2"><img src="../assets/instagram-brands.svg" alt="Instagram icon" class="w-full"></div>
-                    <div class="w-12 p-2"><img src="../assets/twitter-square-brands.svg" alt="Twitter icon" class="w-full"></div>
+                    <div class="w-10 py-2 pr-2">
+                        <span class="fa fa-facebook-official icon"></span>
+                    </div>
+                    <div class="w-12 p-2">
+                        <span class="fa fa-instagram icon"></span>
+                    </div>
+                    <div class="w-12 p-2">
+                        <span class="fa fa-twitter-square icon"></span>
+                    </div>
                 </div>
             </div>
           </div>
@@ -52,6 +58,10 @@ export default {
 #footer{
     @apply py-36 px-6 text-white !important;
     background: hsl(192, 100%, 9%);
+}
+.icon{
+    @apply text-3xl text-white hover:text-blue-400;
+
 }
 
 </style>

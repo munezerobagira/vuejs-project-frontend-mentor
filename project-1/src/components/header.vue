@@ -6,7 +6,7 @@
           </div>
       </div>
       <div >
-          <button class="btn btn-secondary">Try it for free</button>
+          <button class="btn btn-secondary py-2 px-4">Try it for free</button>
       </div>
   </header>
 </template>
