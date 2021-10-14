@@ -45,6 +45,16 @@ const webData={
   h1,h2,h3,h4,h5{
     @apply text-black;
      font-family: 'Poppins', sans-serif;
+     color: #00252E;
+
+  }
+  .font-sans-1{
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+  }
+  .font-sans-2{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600
 
   }
   .btn-secondary {
@@ -52,11 +62,14 @@ const webData={
     background-color: white;
     border: 2px solid hsl(322, 100%, 66%);
 }
+  .btn-secondary:hover{
+    border: 1px solid hsl(322, 100%, 66%);
+}
 .btn-primary {
-    @apply text-white;
+    @apply text-white ;
     background-color: hsl(322, 100%, 66%);
 }
-  .btn-blue:hover {
+  .btn-primary:hover {
     background-color: hsl(321, 100%, 78%);
   }
 </style>
