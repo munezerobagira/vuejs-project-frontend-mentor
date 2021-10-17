@@ -1,9 +1,7 @@
 <template>
   <div class="">
     <div class="py-36">
-      <h1 class="text-center text-4xl font-bold">
-        Ready To Build Your Community
-      </h1>
+      <h1 class="text-center text-4xl font-bold">Ready to change the world</h1>
       <div class="flex justify-center items-center">
         <button
           class="
