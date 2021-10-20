@@ -7,4 +7,4 @@ services:
   foylo:
     build: ./project-2/
     ports:
-      - "4002:3000"
+      - "4002:3001"
