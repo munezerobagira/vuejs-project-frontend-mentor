@@ -162,45 +162,9 @@
           <div>Privacy</div>
         </div>
         <div class="flex-1 inline">
-          <i
-            class="
-              fa fa-facebook
-              text-base
-              w-6
-              h-6
-              text-center
-              border
-              rounded-full
-              m-2
-              align-middle
-            "
-          ></i>
-          <i
-            class="
-              fa fa-twitter
-              text-base
-              w-6
-              h-6
-              text-center
-              border
-              rounded-full
-              m-2
-              align-middle
-            "
-          ></i>
-          <i
-            class="
-              fa fa-instagram
-              text-base
-              w-6
-              h-6
-              text-center
-              border
-              rounded-full
-              m-2
-              align-middle
-            "
-          ></i>
+          <i class="fa fa-facebook brand-icon"></i>
+          <i class="fa fa-twitter brand-icon"></i>
+          <i class="fa fa-instagram brand-icon"></i>
         </div>
       </div>
     </div>
@@ -230,5 +194,8 @@
   }
   .btn-primary {
     @apply bg-secondary text-white hover:bg-opacity-75;
+  }
+  .brand-icon {
+    @apply text-base w-6 h-6 text-center border rounded-full m-2 align-middle;
   }
 </style>
