@@ -1,6 +1,6 @@
 <template>
   <article class="flex justify-center item-center">
-    <img :src="`../assets/images/${image}`" :alt="title" />
+    <img :src="require(`../assets/images/${image}`)" :alt="title" />
     <h1>{{ title }}</h1>
     <p>{{ details }}</p>
   </article>
