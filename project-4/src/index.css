@@ -1,0 +1,39 @@
+/* Font family*/
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*
+## Colors
+
+### Primary
+
+- Dark Blue (intro and email sign up background): hsl(217, 28%, 15%)
+- Dark Blue (main background): hsl(218, 28%, 13%)
+- Dark Blue (footer background): hsl(216, 53%, 9%)
+- Dark Blue (testimonials background): hsl(219, 30%, 18%)
+
+### Accent
+
+- Cyan (inside call-to-action gradient): hsl(176, 68%, 64%)
+- Blue (inside call-to-action gradient): hsl(198, 60%, 50%)
+- Light Red (error): hsl(0, 100%, 63%)
+*/
+:root {
+  /*Primary color*/
+  --primary-1: hsl(217, 28%, 15%);
+  --primary-2: hsl(218, 28%, 13%);
+  --primary-3: hsl(216, 53%, 9%);
+  --primary-4: hsl(219, 30%, 18%);
+  /*Accents colors*/
+  --secondary-1: hsl(176, 68%, 64%);
+  --secondary-2: hsl(198, 60%, 50%);
+  --secondary-3: hsl(0, 100%, 63%);
+}
+
+body {
+  /* font-family: 'Open Sans', sans-serif; */
+  font-family: "Raleway", sans-serif;
+}
