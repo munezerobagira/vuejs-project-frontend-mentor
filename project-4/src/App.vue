@@ -63,7 +63,7 @@
           <div
             v-for="feature in features"
             :key="feature.title"
-            class="bg-secondary h-34 w-36"
+            class="h-34 max-w-36"
           >
             <FeatureCard
               :title="feature.title"
