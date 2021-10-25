@@ -1,0 +1,3 @@
+[build]
+  base = "/"
+  command = "(cd project-1 && npm install && npm run build) && (cd project-2 && npm install && npm run build)&& (cd project-3 && npm install && npm run build)&& (cd project-4 && npm install && npm run build)"

@@ -78,8 +78,7 @@
   .illustration-background {
     @apply py-20;
     position: relative;
-    background: url(../assets/bg-section-top-desktop-1.svg) right -100%/100% no-repeat
-        padding-box,
+    background: url(../assets/bg-section-top-desktop-1.svg) padding-box,
       url(../assets/bg-section-bottom-desktop-1.svg) right -100%/100% no-repeat padding-box,
       hsl(207, 100%, 98%) padding-box;
   }

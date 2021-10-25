@@ -172,13 +172,17 @@
 </template>
 
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&display=swap');
+  @import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&display=swap");
   #app {
     @apply text-primary;
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Open Sans", sans-serif;
   }
-  h1,h2,h3,h4,h5{
-    font-family: 'Raleway', sans-serif; 
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    font-family: "Raleway", sans-serif;
   }
   .hero {
   }
